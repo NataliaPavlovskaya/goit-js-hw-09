@@ -17,11 +17,13 @@ function changeColor(){
         
 }, 2000);
 refs.buttonStart.disabled = true;
+refs.buttonStop.disabled = false;
 };
 
 function stopchangeColor(){
     clearInterval(timerColor);
     refs.buttonStart.disabled = false;
+    refs.buttonStop.disabled = true;
 }
 
 function getRandomHexColor() {
