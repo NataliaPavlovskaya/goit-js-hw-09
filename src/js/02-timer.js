@@ -6,7 +6,7 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 const refs = {
     input: document.querySelector('#datetime-picker'),
-    buttonStart: document.querySelector('button[data-start]'),
+    btnStart: document.querySelector('button[data-start]'),
     daysShow: document.querySelector('span[data-days]'),
     hoursShow: document.querySelector('span[data-hours]'),
     minutesShow: document.querySelector('span[data-minutes]'),
@@ -15,7 +15,7 @@ const refs = {
 
 let deadline;
 
-refs.buttonStart.addEventListener('click', () => {
+refs.btnStart.addEventListener('click', () => {
    timer.start()
 });
 
