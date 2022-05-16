@@ -15,7 +15,7 @@ function changeColor(){
         const randomHexColor = getRandomHexColor();
         refs.body.style.backgroundColor = randomHexColor;
         
-}, 2000);
+}, 1000);
 refs.buttonStart.disabled = true;
 refs.buttonStop.disabled = false;
 };
